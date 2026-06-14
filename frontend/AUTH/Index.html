@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Registro e Inicio de Sesión</title>
+    <link rel="stylesheet" href="Styles.css">
+</head>
+<body>
+
+    <h1>Sistema de Usuarios</h1>
+
+    <div class="contenedor">
+
+        <div class="panel">
+            <h2>Registro</h2>
+
+            <input
+                type="email"
+                id="registerCorreo"
+                placeholder="Correo">
+
+            <input
+                type="password"
+                id="registerContrasena"
+                placeholder="Contraseña">
+
+            <button onclick="register()">
+                Registrar
+            </button>
+        </div>
+
+        <div class="panel">
+            <h2>Iniciar Sesión</h2>
+
+            <input
+                type="email"
+                id="loginCorreo"
+                placeholder="Correo">
+
+            <input
+                type="password"
+                id="loginContrasena"
+                placeholder="Contraseña">
+
+            <button onclick="login()">
+                Entrar
+            </button>
+        </div>
+
+    </div>
+
+    <script src="Script.js"></script>
+
+</body>
+</html>

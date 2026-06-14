@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Tus tareas</title>
+  <link rel="stylesheet" href="PantallaGestor.css">
+</head>
+<body>
+
+<div class="contenedor">
+
+  <div class="panelcrud">
+    <h2>Administrador de tareas</h2>
+    <input id="tareas" placeholder="Nueva tarea">
+    <br><br>
+    <button onclick="Agregartareas()">Agregar</button>
+    <br><br>
+    <button onclick="Eliminartareas()">Eliminar</button>
+    <br><br>
+    <button onclick="Marcarcompletada()">Completar</button>
+    <br><br>
+    <button onclick="Cerrarsesion()">Cerrar sesión</button>
+  </div>
+
+  <div class="listaa">
+    <h2>Lista de tareas</h2>
+    <ul id="lista"></ul>
+  </div>
+
+</div>
+
+<script src="PantallaGestor.js"></script>
+
+</body>
+</html>
